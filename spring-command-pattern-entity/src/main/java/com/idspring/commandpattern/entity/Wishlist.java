@@ -10,7 +10,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Wishlist {
     @Id
-    private String id;
-
     private String productId;
+    
+    private String productName;
+
+    private String username;   
+    
 }
